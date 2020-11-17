@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "first_name": "Yashaswini",
+    "last_name": "Prasad",
+    "contact_number": "56700087",
+    "contact_email_id": "yashaswini@simpragma.com",
+    "password": "*****",
+    "status": "Active",
+    "dob": "2020-06-08T07:04:03.291Z",
+    "gender": "Female",
+    "profile_image": "string",
+    "registered_address": {
+      "id": 0,
+      "address_line1": "bangalore",
+      "address_line2": "string",
+      "street": "string",
+      "area": "string",
+      "city": "bangalore",
+      "village": "string",
+      "talluka": "string",
+      "state": "string",
+      "country": "string",
+      "pin_code": "560073",
+      "gps_coordinate": {
+        "id": 0,
+        "latitude": 0,
+        "longitude": 0
+      }
+    },
+    "role_id": {
+      "Id": 1,
+      "title": "admin",
+      "description": "string"
+    }
+  },
+  {
+    "id": 2,
+    "first_name": "Alen",
+    "last_name": "xavier",
+    "contact_number": "63389399",
+    "contact_email_id": "aln@simpragma.com",
+    "password": "*****",
+    "status": "Active",
+    "dob": "2020-06-08T07:04:03.291Z",
+    "gender": "Male",
+    "profile_image": "string",
+    "registered_address": {
+      "id": 0,
+      "address_line1": "zxh layout",
+      "address_line2": "string",
+      "street": "string",
+      "area": "string",
+      "city": "newyork",
+      "village": "string",
+      "talluka": "string",
+      "state": "string",
+      "country": "string",
+      "pin_code": "45555",
+      "gps_coordinate": {
+        "id": 0,
+        "latitude": 0,
+        "longitude": 0
+      }
+    },
+    "role_id": {
+      "Id": 2,
+      "title": "Super admin",
+      "description": "string"
+    }
+  }
+]

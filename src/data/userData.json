@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "first_name": "Yashaswini",
+    "last_name": "Prasad",
+    "contact_number": "56700087",
+    "contact_email_id": "yashaswini@simpragma.com",
+    "password": "*****",
+    "status": "Active",
+    "dob": "2020-06-08T07:04:03.291Z",
+    "gender": "Female",
+    "profile_image": "string",
+    "registered_address": {
+      "id": 0,
+      "address_line1": "bangalore",
+      "address_line2": "string",
+      "street": "string",
+      "area": "string",
+      "city": "bangalore",
+      "village": "string",
+      "talluka": "string",
+      "state": "string",
+      "country": "string",
+      "pin_code": "560073",
+      "gps_coordinate": {
+        "id": 0,
+        "latitude": 0,
+        "longitude": 0
+      }
+    },
+    "role_id": {
+      "Id": 1,
+      "title": "admin",
+      "description": "string"
+    }
+  }
+]

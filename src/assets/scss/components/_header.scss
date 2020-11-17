@@ -1,0 +1,37 @@
+.header {
+  height: 50px;
+  background-color: #7986cb;
+  width: 100%;
+  display: flex;
+  .menuWrap {
+    margin-left: 20px;
+    padding: 13px;
+    cursor: pointer;
+  }
+  .headerMain {
+    flex: 1;
+    padding: 13px 20px;
+    h6 {
+      font-size: 24px !important;
+      font-family: 'Montserrat';
+      font-weight: 200;
+      color: #fff;
+    }
+  }
+  .profIcons {
+    display: flex;
+    flex-direction: row;
+    padding: 8px 12px;
+  }
+  .profIcon {
+    background-color: #fff;
+    width: 36px;
+    height: 36px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+  }
+}

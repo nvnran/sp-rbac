@@ -1,0 +1,39 @@
+.sidebar {
+  height: calc(100% - 50px);
+  width: 250px;
+  background-color: #f5f5f5;
+  z-index: 10;
+  position: absolute;
+  top: 50px;
+  padding: 30px 20px;
+  border-top: 2px solid #ccc;
+  transform: translateX(-250px);
+  transition: all 0.6s linear;
+  ul {
+    a {
+      color: #959595;
+      text-decoration: none;
+      transition: all 0.4s linear;
+      &:hover {
+        color: #959595;
+        text-decoration: none;
+        font-weight: 500;
+      }
+      li {
+        font-family: 'Montserrat';
+        font-size: 13px;
+        margin-bottom: 15px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #ccc;
+        &:after {
+          font-family: 'FontAwesome';
+          content: '\f105';
+          float: right;
+        }
+      }
+    }
+  }
+}
+.unhide {
+  transform: translateX(0px) !important;
+}
